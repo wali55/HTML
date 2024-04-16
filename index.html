@@ -5,9 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s" type="image/x-icon">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 30px;
+            font-size: 35px;
+        }
+        .main {
+            display: flex;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            background-color: cornflowerblue;
+            width: 30%;
+            height: 300px;
+            padding: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 10px;
+            color: aliceblue;
+        }
+        nav a:hover {
+            color: brown;
+        }
+        section {
+            display: flex;
+            width: 70%;
+            background-color: aquamarine;
+        }
+        footer {
+            background-color: darkkhaki;
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="background-color: lightgreen;">This is a heading</h1>
-    <a href="https://www.google.com" target="_blank">Google</a>
+    <h1 class="header" style="background-color: lightgreen;">This is a heading</h1>
+    <div class="main">
+    <nav>
+        <a href="https://www.google.com" target="_blank">Google</a>
+        <a href="https://www.google.com" target="_blank">FaceBook</a>
+        <a href="https://www.google.com" target="_blank">YouTube</a>
+        <a href="https://www.google.com" target="_blank">LinkedIn</a>
+    </nav>
+    
+    <section>
+        <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+
+    <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s" alt="tree">
+
+    <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur.</p>
+    <p style="color: coral;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </section>
+</div>
+<footer>
+    <h4>Footer</h4>
+</footer>
 </body>
 </html>
