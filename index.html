@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
-    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s"
+        type="image/x-icon">
     <style>
         * {
             box-sizing: border-box;
@@ -16,9 +19,12 @@
             padding: 30px;
             font-size: 35px;
         }
+
         .main {
             display: flex;
+            
         }
+
         nav {
             display: flex;
             flex-direction: column;
@@ -27,60 +33,78 @@
             height: 300px;
             padding: 20px;
         }
+
         nav a {
             text-decoration: none;
             margin: 10px;
             color: aliceblue;
         }
+
         nav a:hover {
             color: brown;
         }
+
         section {
             display: flex;
             width: 70%;
             background-color: aquamarine;
         }
+
         footer {
             background-color: darkkhaki;
             padding: 30px;
             text-align: center;
         }
+        .myid {
+            height: 500px;
+            background-image: url("https://images.unsplash.com/photo-1713191352960-911f277876a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: right top;
+        }
     </style>
 </head>
+
 <body>
     <h1 class="header" style="background-color: lightgreen;">This is a heading</h1>
     <div class="main">
-    <nav>
-        <a href="https://www.google.com" target="_blank">Google</a>
-        <a href="https://www.google.com" target="_blank">FaceBook</a>
-        <a href="https://www.google.com" target="_blank">YouTube</a>
-        <a href="https://www.google.com" target="_blank">LinkedIn</a>
-    </nav>
-    
-    <section>
-        <h1>Hello</h1>
-    <h2>Hello</h2>
-    <h3>Hello</h3>
-    <h4>Hello</h4>
-    <h5>Hello</h5>
-    <h6>Hello</h6>
+        <nav>
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.google.com" target="_blank">FaceBook</a>
+            <a href="https://www.google.com" target="_blank">YouTube</a>
+            <a href="https://www.google.com" target="_blank">LinkedIn</a>
+        </nav>
 
-    <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s" alt="tree">
+        <section>
+            <h1>Hello</h1>
+            <h2>Hello</h2>
+            <h3>Hello</h3>
+            <h4>Hello</h4>
+            <h5>Hello</h5>
+            <h6>Hello</h6>
 
-    <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur.</p>
-    <p style="color: coral;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-    </section>
-</div>
-<form action="">
-    <input type="checkbox" name="mango" id="mango">
-    <label for="mango">Mango</label><br>
-    <input type="checkbox" name="banana" id="banana">
-    <label for="banana">Banana</label><br><br>
-    <input type="submit" value="Submit">
-</form>
-<footer>
-    <h4>Footer</h4>
-</footer>
+            <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s"
+                alt="tree">
+
+            <p style="color: blueviolet;">Lorem ipsum dolor sit amet consectetur.</p>
+            <p style="color: coral;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </section>
+    </div>
+    <form action="">
+        <input type="checkbox" name="mango" id="mango">
+        <label for="mango">Mango</label><br>
+        <input type="checkbox" name="banana" id="banana">
+        <label for="banana">Banana</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div>
+        <input type="text">
+    </div>
+    <footer>
+        <h4>Footer</h4>
+    </footer>
+    <div class="myid"></div>
 </body>
+
 </html>
