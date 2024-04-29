@@ -4,6 +4,7 @@ ul.sidenav {
     padding: 0;
     position: fixed;
     top: 0;
+    right: 0;
     width: 25%;
     height: 100%;
     overflow: auto;
@@ -44,3 +45,55 @@ ul.sidenav {
         float: none;
     }
 }
+
+ul.new {
+    list-style-type: none;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+ul.new li {
+    float: left;
+}
+
+.new li a, .dropbtn {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #111;
+    text-align: center;
+}
+
+.new li a:hover {
+    background-color: red;
+}
+
+.new li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
