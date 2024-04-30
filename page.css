@@ -12,10 +12,12 @@ body {
 .header {
     text-align: center;
     padding: 45px;
+    background-image: linear-gradient(to top right, #FC4100, #FFC55A, #00215E, #2C4E80);
 }
 
 .header h1 {
     margin-bottom: 15px;
+    color: aliceblue;
 }
 
 .topnav {
